@@ -1,0 +1,466 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+}
+
+h4 {
+    color: #333;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-pag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 115px;
+    padding-left: 115px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.alert {
+    background-color: #ffc107;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.confirm-alert {
+    background-color: #398a16;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.alert-danger {
+    background-color: #ff0f07;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-control {
+    width: fit-content;
+    padding: 8px;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #004fa3;
+}
+
+.form-btn {
+    background-color: #082d54;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #1865be;
+    color: rgb(255, 255, 255);
+}
+
+.error_area {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.painel-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 35px;
+    border: 1px #070343 solid;
+    border-radius: 7px;
+}
+
+.painel-center {
+    align-items: center;
+    width: fit-content;
+
+}
+
+.painel-formulario {
+    align-items: flex-end;
+    margin: 25px;
+    padding: none;
+    justify-content: flex-start;
+    height: fit-content;
+}
+
+.center-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.center-formulario {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+
+}
+
+textarea.form-control {
+    width: fit-content;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.calendario {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.calendario td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+}
+
+.calendario tr {
+    background-color: rgb(165, 165, 165);
+
+}
+
+tr:hover .calediariotr {
+    background-color: rgb(28, 64, 103);
+
+}
+
+.calendario th {
+    background-color: rgb(28, 64, 103);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    color: #ccc;
+    width: fit-content;
+
+}
+
+
+.selected {
+    background-color: rgb(28, 64, 103);
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.tabela-sem-bordas {
+    width: auto;
+    border: none;
+    border-collapse: collapse;
+  }
+  
+  .tabela-sem-bordas td {
+    padding: 5px;
+    border: none;
+   
+  }
+  
+  .alinhado-direita {
+    border: none;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .alinhado-esquerda {
+    border: none;
+    text-align: left;
+  }
+
+  .tabela-sem-bordas tr{
+    background: none;
+    border: none;
+  }
+
+  .tabela-sem-bordas tr:hover{
+    border: none;
+    background: none;
+  }
+
+
+tr {
+    text-align: left;
+    border: 1px solid #666;
+
+}
+
+td {
+    padding: 4px;
+    text-align: left;
+    border: 1px solid #666;
+    background-color: none;
+}
+
+
+th {
+    background-color: #082d54;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    color: #ccc;
+    width: fit-content;
+}
+
+th:hover {
+    background-color: #082d54;
+
+}
+
+tr:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.opcoes-line {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #333;
+    border: 1px black solid;
+    border-radius: 7px;
+    height: 30px;
+    justify-content: center;
+}
+
+.opcoes-line a {
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.opcoes-line a:hover {
+
+    color: rgb(236, 236, 236);
+}
+
+.pagination {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px #070343 solid;
+    width: min-content;
+}
+
+.acoes-btn {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.acoes-btn :hover {
+    text-decoration: none;
+    color: #070343;
+}
+
+.info-user {
+    display: flex;
+    flex-direction: column;
+    border: 1px #070343 solid;
+    margin: 0;
+    width: 600px;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    background-color: #333;
+    padding: 5px;
+    color: #ccc;
+    width: 100%;
+    margin: 0;
+}
+
+.return {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+
+}
+
+.painelDados {
+
+    border: 1px #333 solid;
+    border-radius: 7px;
+    padding: 4px;
+    
+    
+}
+
+.painel-controle {
+    width: 250px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.painel-controle li {
+
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 0;
+    width: max-content;
+    height: 30px;
+    width: 100%;
+
+}
+
+.painel-controle ul {
+
+
+}
+
+.painel-controle li:hover {
+    color: #082d54;
+    
+}
+
+
+.painel-controle li a:hover {
+  
+  color: rgb(0, 85, 171);
+    
+}
+
+.painel-controle ul {
+    left: 0px;
+
+}
+
+.painel-controle a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Label de Nome de Usuário */
+.nome-usuario {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.footer-info {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    margin-top: 15px;
+}
+/* Mural de Avisos */
+
+/* Estilos CSS */
+.mural-avisos {
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 7px;
+    margin-top: 70px;
+    padding: 15px;
+}
+
+.painel-info {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 700px;
+    height: max-content;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    font-size: 13px;
+   
+}
+
+.avisos-container {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.aviso {
+    flex: 0 0 33.33%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
